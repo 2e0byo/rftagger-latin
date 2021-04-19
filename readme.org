@@ -1,0 +1,15 @@
+#+title: RFTagger for Latin
+
+This repo contains code to get [[https://www.cis.lmu.de/~schmid/tools/RFTagger][RFTagger]] working with Latin.  It uses the model from [[https://github.com/Alatius/latin-macronizer][latin-macronizer]].
+
+* Usage
+
+  You need RFTagger installed.  On Linux you can likely just fetch the source
+  code and drop the precompiled binaries in ~RFTagger/bin/~ somewhere in your
+  ~$PATH~.
+
+  Then you can either use the parfile in this repo (which may be out of date),
+  or run the `gen_parfile.sh` to get the latest from the latin macronizer
+  project.
+
+  Please note that the parfile is from latin macronizer.
